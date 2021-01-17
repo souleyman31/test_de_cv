@@ -1,0 +1,119 @@
+/*****GENERAL*****/
+body {
+	margin: 0;
+	padding: 0px;
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
+	border: 1px solid black;
+}
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 1px solid rgb(124, 87, 124);
+}
+
+/*****HEADER****/
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+#div1,
+#div3 {
+	width: 33.33%;
+}
+#div2 {
+	flex: auto;
+	font-size: 30px;
+}
+#div3 {
+	font-size: 30px;
+}
+#div1 img {
+	height: 200px;
+}
+
+/*******CORPS**/
+#corps {
+	margin: 20px;
+}
+/*********NAV****/
+nav,
+footer {
+	background-color: rgb(107, 43, 190);
+	padding: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+nav ul {
+	display: flex;
+	justify-content: space-around;
+}
+nav ul li {
+	list-style-type: none;
+}
+nav ul li a {
+	display: block;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+	color: red;
+	background-color: yellow;
+}
+/*****TABLE****/
+table {
+	/*border-collapse: collapse;*/
+	width: 100%;
+	text-align: center;
+}
+td,
+th {
+	border: 1px double black;
+}
+th {
+	color: rgb(17, 17, 231);
+}
+
+/******SYNTHESE***/
+
+/*** FOOTER****/
+footer {
+	color: white;
+}
+
+/******INFORMATIONS.HTML******/
+#informations {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+#infos {
+	width: 30%;
+}
+#infos div {
+	color: blue;
+	padding-top: 20px;
+}
+#infos div h1 {
+	border: none;
+
+	margin-bottom: 0;
+}
+#infos div:nth-child(2) h1 {
+	margin-top: 5px;
+}
+#infos div:nth-child(3) h1 #infos div p {
+	font-size: small;
+	color: black;
+	font-weight: bold;
+	margin-top: 0;
+}
+#competences {
+	flex: auto;
+}
+#competences div {
+}
