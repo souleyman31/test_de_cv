@@ -85,35 +85,70 @@ footer {
 	color: white;
 }
 
-/******INFORMATIONS.HTML******/
-#informations {
+/******INFORMATIONS COMPETENCES PRO***********/
+#bloc {
 	display: flex;
-	justify-content: space-between;
-	text-align: center;
 }
-#infos {
+#bloc div:nth-child(1) {
+	color: rgb(17, 17, 231);
+	margin-right: 30px;
+	margin-left: 30px;
 	width: 30%;
 }
-#infos div {
-	color: blue;
-	padding-top: 20px;
-}
-#infos div h1 {
+#bloc div:nth-child(1) h1 {
 	border: none;
-
-	margin-bottom: 0;
 }
-#infos div:nth-child(2) h1 {
-	margin-top: 5px;
-}
-#infos div:nth-child(3) h1 #infos div p {
-	font-size: small;
-	color: black;
-	font-weight: bold;
-	margin-top: 0;
-}
-#competences {
+#bloc div:nth-child(1) {
 	flex: auto;
 }
-#competences div {
+
+/*******MEDIA QUERIES****/
+
+@media screen and (max-width: 768px) {
+	/****HEADER*/
+	#div1,
+	#div2,
+	#div3 {
+		width: 33.33%;
+		font-size: 20px;
+	}
+	#div1 img {
+		height: 100px;
+	}
+	/****NAV**/
+	nav ul li:nth-child(1) {
+		display: none;
+	}
+	/****INFO COMPETENCES PRO**/
+	#bloc div h1 {
+		font-size: 20px;
+	}
+
+	/*
+
+
+
+
+
+#bloc {
+	display: flex;
+}
+#bloc div:nth-child(1) {
+	color: rgb(17, 17, 231);
+	margin-right: 30px;
+	margin-left: 30px;
+	width: 30%;
+}
+#bloc div:nth-child(1) h1 {
+	border: none;
+}
+#bloc div:nth-child(1) {
+	flex: auto;
+}
+
+
+
+
+
+*/
 }
